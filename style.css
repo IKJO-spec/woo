@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(to bottom right, #f8f1e5, gray);
+  /* Ensures the background color goes from soft yellow (#f8f1e5) to gray */
+  background-size: cover; /* Ensures the image covers the whole page */
+  background-position: center; /* Centers the color */
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  font-family: 'Poppins', sans-serif; /* Fixed typo in font-family */
+  
+  text-decoration-color: burlywood; /* Makes text burlywood to contrast with the background */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+}
+
+h1 {
+  color: #FFB732; /* Warm gold color for the heading */
+  text-align: center; /* Centers the heading */
+  padding-top: 100px; /* Adds space from the top */
+}
+
+h2 {
+  color: palegoldenrod; /* Pale goldenrod color for the subheading */
+  padding-top: 20px; /* Adds space from the top */
+}
+
+h3 {
+  color: coral; /* Coral color for the subheading */
+  padding-top: 50px; /* Adds space from the top */
+}
+
+h4 {
+  color: aquamarine; /* Aquamarine color for the subheading */
+}
+
+.my-text {
+  color: lavender; /* Lavender color for specific text */
+}
+
+.my-buttons {
+  color: purple; /* Purple color for buttons */
+}
+
+/* Basic styling for the WhatsApp link */
+.whatsapp-float a {
+  color: #25D366; /* WhatsApp green color */
+  font-size: 40px; /* Size of the icon */
+  text-decoration: none; /* Removes underline from the link */
+}
+
+/* Make the WhatsApp icon float at the bottom left corner */
+.whatsapp-float {
+  position: fixed; /* Keeps it in place even when scrolling */
+  left: 20px; /* Distance from the left side */
+  bottom: 20px; /* Distance from the bottom */
+  z-index: 1000; /* Ensures it stays on top of other content */
+}
+
+.whatsapp-float a:hover {
+  color: #128C7E; /* Darker green for hover effect */
+}
